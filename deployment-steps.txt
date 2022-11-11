@@ -25,11 +25,11 @@
 	2. AmazonEC2FullAccess
 	3. AmazonS3FullAccess
 
-3.Create a s3 bukcet in ap-south-1
-	bucket name: scania-sensor-pipeline
+3.Create a s3 bukcet in eu-central-1
+	bucket name: apssensor
 	
 4. ECR repo to store/save docker image
-	566373416292.dkr.ecr.ap-south-1.amazonaws.com/sensor-fault
+	679448834216.dkr.ecr.eu-central-1.amazonaws.com/apssensor
 	
 5. EC2 machine  Ubuntu  Created
 
@@ -57,10 +57,10 @@ AWS_ACCESS_KEY_ID=
 
 AWS_SECRET_ACCESS_KEY=
 
-AWS_REGION=ap-south-1
+AWS_REGION=eu-central-1
 
-AWS_ECR_LOGIN_URI=566373416292.dkr.ecr.ap-south-1.amazonaws.com
+AWS_ECR_LOGIN_URI=679448834216.dkr.ecr.eu-central-1.amazonaws.com
 
-ECR_REPOSITORY_NAME=sensor-fault
+ECR_REPOSITORY_NAME=apssensor
 
 MONGO_DB_URL=mongodb+srv://avnish:Aa327030@cluster0.or68e.mongodb.net/admin?authSource=admin&replicaSet=atlas-desfdx-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true
